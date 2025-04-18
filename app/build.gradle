@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.loookup.modelingtest"
-        minSdk = 21
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -27,6 +27,8 @@ android {
 }
 
 dependencies {
-    implementation('androidx.appcompat:appcompat:1.5.0')
-    implementation libs.constraintlayout
+    implementation 'androidx.appcompat:appcompat:1.5.0'
+    implementation 'androidx.core:core:1.8.0'
+    implementation 'com.google.ar.sceneform:core:1.15.0'
+    implementation 'com.google.ar.sceneform:assets:1.15.0'
 }

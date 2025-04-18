@@ -8,6 +8,7 @@ material = "1.10.0"
 constraintlayout = "2.2.1"
 
 [libraries]
+gltfio-android = { module = "com.google.android.filament:gltfio-android" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
